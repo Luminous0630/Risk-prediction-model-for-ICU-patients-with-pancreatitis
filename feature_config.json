@@ -1,0 +1,72 @@
+{
+  "APTT": {
+    "type": "numerical",
+    "min": 5.0,
+    "max": 100.0,
+    "default": 35.0,
+    "unit": "sec",
+    "description": "Activated Partial Thromboplastin Time"
+  },
+  "BUN": {
+    "type": "numerical",
+    "min": 0.1,
+    "max": 15.0,
+    "default": 5.0,
+    "unit": "mmol/L",
+    "description": "Blood Urea Nitrogen"
+  },
+  "AST": {
+    "type": "numerical",
+    "min": 1.0,
+    "max": 2000.0,
+    "default": 40.0,
+    "unit": "U/L",
+    "description": "Aspartate Aminotransferase"
+  },
+  "Fibrinogen": {
+    "type": "numerical",
+    "min": 0.1,
+    "max": 15.0,
+    "default": 3.0,
+    "unit": "g/L",
+    "description": "Fibrinogen"
+  },
+  "INR": {
+    "type": "numerical",
+    "min": 0.3,
+    "max": 8.0,
+    "default": 1.0,
+    "unit": "",
+    "description": "International Normalized Ratio"
+  },
+  "NLR": {
+    "type": "numerical",
+    "min": 0.5,
+    "max": 100.0,
+    "default": 5.0,
+    "unit": "",
+    "description": "Neutrophil to Lymphocyte Ratio"
+  },
+  "ThrombinTime": {
+    "type": "numerical",
+    "min": 5.0,
+    "max": 50.0,
+    "default": 18.0,
+    "unit": "sec",
+    "description": "Thrombin Time"
+  },
+  "Hemoglobin": {
+    "type": "numerical",
+    "min": 20.0,
+    "max": 250.0,
+    "default": 130.0,
+    "unit": "g/L",
+    "description": "Hemoglobin"
+  },
+  "PatientSource_Transferred": {
+    "type": "categorical",
+    "options": [0, 1],
+    "labels": ["Emergency/General Ward", "Transferred"],
+    "description": "Patient Source"
+  }
+}
